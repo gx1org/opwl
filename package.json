@@ -1,0 +1,30 @@
+{
+  "name": "opwl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/serve.ts",
+    "build": "tsc"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gx1org/opwl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gx1org/opwl/issues"
+  },
+  "homepage": "https://github.com/gx1org/opwl#readme",
+  "dependencies": {
+    "@hono/node-server": "^1.19.6",
+    "hono": "^4.10.6"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}
