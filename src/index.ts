@@ -10,6 +10,7 @@ type Subscription = {
 const currentSubscriptions: Subscription[] = [
   { origin: 'https://coverain-fe.vercel.app', status: 'active', expires: '2026-12-31' },
   { origin: 'http://localhost:7101', status: 'active', expires: '2026-12-31' },
+  { origin: 'https://www.sekenan.com', status: 'active', expires: '2027-05-06' },
 ]
 
 const app = new Hono()
